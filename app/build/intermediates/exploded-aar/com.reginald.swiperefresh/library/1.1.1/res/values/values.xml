@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomSwipeRefreshLayout"><attr format="boolean" name="enable_top_progress_bar"/><attr format="enum" name="refresh_mode"><enum name="swipe_mode" value="1"/><enum name="pull_mode" value="2"/></attr><attr format="integer" name="time_out_return_to_top"/><attr format="integer" name="time_out_refresh_complete"/><attr format="integer" name="return_to_top_duration"/><attr format="integer" name="return_to_header_duration"/><attr format="boolean" name="keep_refresh_head"/><attr format="color|reference" name="top_progress_bar_color_1"/><attr format="color|reference" name="top_progress_bar_color_2"/><attr format="color|reference" name="top_progress_bar_color_3"/><attr format="color|reference" name="top_progress_bar_color_4"/></declare-styleable>
+    <!-- From: file:/Users/lxy/ideaProjects/CustomSwipeRefreshLayout/library/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="csr_text_last_refresh">last update:  </string>
+    <string name="csr_text_state_complete">Refreshing complete </string>
+    <string name="csr_text_state_normal">Swipe  to  refresh </string>
+    <string name="csr_text_state_ready">Release to refresh </string>
+    <string name="csr_text_state_refresh">Refreshing  ...   </string>
+</resources>
